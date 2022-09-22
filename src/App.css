@@ -1,0 +1,60 @@
+.App-header {
+  background-color: #fff;
+}
+
+.siteNav {
+  float: right;
+  padding: 2rem;
+}
+
+.navbutton {
+  background-color: #5a5a5a;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 10px;
+  cursor: pointer;
+}
+
+.fathymemotibit {
+  width: 100%;
+  height: auto;
+  max-width: 324px;
+  max-height: 150px;
+  padding: 1rem 0 1rem 1rem;
+}
+
+@media only screen and (max-width: 650px) {
+  .siteNav {
+    float: left;
+    padding: 1rem;
+  }
+  
+  .navbutton {
+    padding: 7px 16px;
+    margin: 2px 5px;
+  }
+}
+
+.dashboard {
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+  
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
