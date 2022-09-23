@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <a href="https://powerfleet.fathym-it.com/"><img src={fathymemotibit} className="fathymemotibit" alt="logo" /></a>        
+        <a href="https://www.fathym.com/"><img src={fathymemotibit} className="fathymemotibit" alt="logo" /></a>        
       </header>
       <br />
       <div className="dashboard">
