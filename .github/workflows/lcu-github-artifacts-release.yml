@@ -1,4 +1,4 @@
-name: fathym-it/emotibit-dashboard-react
+name: kacloomis/gatsby-starter-blog
 
 on:
   push:
@@ -13,9 +13,9 @@ env:
   Branches: main
   MainBranch: main
   NPMRegistry: https://registry.npmjs.org/
-  InstallCommand: npm ci
+  InstallCommand: npm i
   BuildCommand: npm run build
-  Output: ./build
+  Output: ./public
 
 jobs:
   build:
